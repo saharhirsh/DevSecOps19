@@ -1,0 +1,36 @@
+if(test $1 == "?")
+then
+printf "welcome to my TOOLZ script\n  Here are your options:\n"
+printf "[-f] prompts the find helper.\n"
+printf "[-s] prompts the system information.\n"
+printf "[-p] prompts the process management.\n"
+printf "[-u] prompts the user management.\n"
+printf "[-h] prompts the help system.\n"
+printf "\n"
+fi
+
+if(test $1 == "-f")
+then
+printf "hello F\n"
+printf "Hello, welcome to the 'Find' helper\n"
+fi
+
+if(test $1 == "-s")
+then
+printf "hello S\n"
+fi
+
+if(test $1 == "-p")
+then
+printf "hello P\n"
+fi
+
+if(test $1 == "-u")
+then
+printf "hello U\n"
+fi
+
+if(test $1 == "-h")
+then
+printf "hello H\n"
+fi
